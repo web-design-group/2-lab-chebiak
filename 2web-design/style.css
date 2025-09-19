@@ -1,0 +1,151 @@
+#header {
+    background-color: #14122C;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#header nav a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #EA7437;
+    font-family: Montserrat;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#header nav a:hover {
+    color: #ebb59a;
+}
+
+main {
+    padding: 20px;
+}
+
+body {
+    background-color: #ffffff;
+    color: #14122C;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0 20px;
+    font-weight: 600;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: PumpOpti;
+    text-align: center;
+    font-size: 70px;
+}
+
+h2 {
+    color: #EA7437;
+    font-family: Montserrat;
+    font-size: 32px;
+    margin-bottom: 16px;
+    padding: 0;
+}
+
+h4 {
+    font-family: Montserrat;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 16px;
+    margin: 0 0 16px 0;
+    text-align: justify;
+}
+
+figure {
+    display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+figure img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-family: Montserrat;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.highlight{
+    text-align: center;
+    color: #14122C;
+    font-family: Montserrat;
+    font-size: 24px;
+}
+
+.my-image-class {
+  width: 100%;
+}
+
+.imgleft {
+    float: left;
+    margin: 10px;
+    width: 150px;
+}
+
+.imgright {
+    float: right;
+    margin: 10px;
+    width: 150px;
+}
+
+.clearfloat {
+    clear: both;
+    padding: 10px;
+            background: #efedff;
+            margin-top: 20px;
+}
+
+.articlee {
+  width: 70%;
+  float: left;
+  padding: 10px;
+}
+
+aside {
+  font-family: Montserrat;  
+  width: 300px;
+  float: right;
+  background: #efedff;
+  padding: 10px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-family: Montserrat;
+    padding: 15px;
+    background-color: #efedff;
+    font-size: 14px;
+    margin-top: 40px;
+    border-top: 1px solid #efedff;
+}
